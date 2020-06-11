@@ -1,13 +1,14 @@
 @font-face {
-    font-family: "oswald";
-    src: url("fonts\Oswald\Oswald-ExtraLight.ttf");
-    font-weight: 200;
+    font-family: "Roboto";
+    src: url("fonts\\Roboto\Roboto-Light.ttf");
+    font-weight: 400;
 }
 h1 {
 
     color: greenyellow;
     font-size: 40px;
-    font-family: "Oswald"
+    font-family: "Roboto";
+    text-align: center;
 }
 
 h2 {
@@ -15,5 +16,22 @@ h2 {
 }
 img{
     width: 150px;
-    height: 100px
+    height: 100px;
+    box-shadow: 2 2 7 grey;
+    margin: 0.5%;
+    border: dashed violet;
+    padding: 4px;
+    background-color: wheat;
+    display: inline;
+    
+}
+#img-1 {
+    display: inline;
+}
+
+html {
+    background-color: darkkhaki;
+    background-image: url("../img/restaurant.jpg");
+    background-repeat: repeat-y;
+    background-position: center;
 }

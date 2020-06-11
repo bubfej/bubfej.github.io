@@ -1,0 +1,11 @@
+#colorDiv {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: darkblue;
+}
+
+html {
+    background-color: darkkhaki;
+    background-image: url("../img/restaurant.jpg");
+}
