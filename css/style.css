@@ -22,7 +22,7 @@ img{
     border: dashed violet;
     padding: 4px;
     background-color: wheat;
-    display: inline;
+    
     
 }
 #img-1 {
@@ -30,7 +30,7 @@ img{
 }
 
 html {
-    background-color: darkkhaki;
+    background-color: rgb(190, 190, 178);
     background-image: url("../img/restaurant.jpg");
     background-repeat: repeat-y;
     background-position: center;
