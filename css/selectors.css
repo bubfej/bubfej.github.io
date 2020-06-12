@@ -19,5 +19,14 @@ body {
     border: solid 1px red
 }
 .login-div button:hover {
-    box-shadow: 0 0 3px;
+    box-shadow: 2px 2px 3px #c0c0c0;
+}
+.login-div input:focus {
+    box-shadow: 2px 2px 3px yellow;
+    border none
+}
+
+ul li:last-child{
+    font-family: Arial;
+    text-decoration: underline
 }
