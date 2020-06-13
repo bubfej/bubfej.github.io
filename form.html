@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>
+        <form>
+            <fieldset>
+                <legend>Személyes adatok</legend>
+                        <div>
+                <label for="name">Név: *</label>
+                <input id="name" name="name" type="text" required>
+            </div>
+            <div>
+                <label for="email address">Email cím: *</label>
+                <input id="email" name="email" type="email" required>
+            </div>
+            <div>
+                <label for="phone number">Telefonszám: *</label>
+                <input id="phone number" name="phone number" type="text" required>
+            </div>
+            <div>
+                <label for="address">Cím: *</label>
+                <input id="address" name="address" type="text" required>
+            </div>
+            <div>
+                <label for="comment">Megjegyzés: </label>
+                <textarea name="comment" id="comment" rows="5"></textarea>
+            </div>
+        </fieldset>
+        </form>
+        
+        <fieldset>
+            <legend>Termék adatok</legend>
+               <span>Extra feltét</span>
+        <div>
+            <input checked id="nothing" name="Extra" type="radio" value="0">
+            <label for="nothing">Nem kérek</label>
+        </div>
+        <div>
+            <input id="cheese" name="Extra" type="radio" value:300>
+            <label for="cheese">Sajt </label>
+        </div>
+        <div>
+            <input id="bacon" name="Extra" type="radio" value:300>
+            <label for="bacon"> Bacon </label>
+        </div>
+        <div>
+            <input id="double meat" name="Extra" type="radio" value:300>
+            <label for="double meat">Dupla hús </label>
+        </div>
+        <div>
+            <input id="egg" name="Extra" type="radio" value:300>
+            <label for="egg">Tojás </label>
+        </div>
+        <div>
+            <label for="sauce"> Szósz</label>
+            <select id:="sauce" name="sauce">
+                <option value="0" selected> Majonézes</option>
+                <option value="10">Ketchupos</option>
+        </div>
+        <div>
+            <label for="quantity">Mennyiség: </label>
+            <input id="quantity" name="quantity" type="number" min="1" max="10">
+        </div>
+    </fieldset>
+    </h1>
+
+
+
+</body>
+
+</html>
